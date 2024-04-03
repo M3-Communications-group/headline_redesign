@@ -31,6 +31,35 @@
      color: white;
 }
 
-#prueba{
-    
+#contentBanner {
+    height: 32dvh;
+    min-height: 300px;
+    padding-left: 15vw;
+    background-image: url(../assets/images/contentBanner_bg.gif);
+}
+
+#pageTitle {
+    font-size: 70px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "a_ Plakat Cmpl";
+}
+
+#content {
+    border: 1px solid black;
+    height: 350dvh;
+    min-height: 3000px;
+}
+
+footer {
+    height: 60dvh;
+    min-height: 494px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.footerIcon {
+    height: 65px;
 }
