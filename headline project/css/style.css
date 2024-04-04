@@ -8,8 +8,11 @@
 
 
 
-#carouselExampleControls{
-    background-color: #ebebeb;
+
+
+
+#backgroundIndex{
+    width: 198dvh;
 }
 
 #headerLogo{
@@ -18,9 +21,8 @@
 
 #headerText{
     position: absolute;
-     top: 50%; 
-     left: 50%; 
-     transform: translate(0%, -70%); 
+     top: 20%;
+     left: 55%; 
      font-family: 'a_PlakatCmpl',Arial, sans-serif;
      color: white;
 }
@@ -30,6 +32,158 @@
     font-family: "Open Sans", sans-serif;
      color: white;
 }
+
+.slider{
+    height: 32dvh;
+    background-color: #ebebeb;
+}
+
+
+.headlineInfo{
+    height: 54dvh;
+}
+
+
+/*Slider */
+
+
+
+
+
+/* OUR SERVICES*/
+
+
+
+.headlineInfo{
+    text-align: center;
+}
+
+.headlineInfo h3{
+    color: #923c75;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 20pt;
+    margin-top: 10dvh;
+    margin-right: 25dvh;
+    margin-left: 28dvh;
+}
+
+
+.headlineInfo h1{
+    color: #923c75;
+    font-family: "Open Sans",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 30pt;
+    line-height: 4.5;
+
+}
+
+
+/*textWithBackgroundImages */
+
+#backgroundIndex2 {
+    width: 198dvh;
+}
+
+.textWithBackground {
+    position: relative;
+}
+
+.overlayPurple {
+    position: absolute;
+    top: 0;
+    right: 0; /* Ajusta la posición a la derecha */
+    width: 50%; /* Ocupa la mitad del contenedor */
+    height: 100%; /* Ocupa la altura completa del contenedor */
+    background-color: #a44381df; /* Color púrpura con transparencia */
+    z-index: 1; /* Asegura que el overlay esté por encima de la imagen de fondo */
+}
+
+.backgroundText {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    font-family: 'a_PlakatCmpl', Arial, sans-serif;
+    color: white;
+    z-index: 2; /* Asegura que el texto esté por encima del overlay */
+}
+
+.backgroundText h1,
+.backgroundText p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+/* Blue Divs */
+.blueTextWithBackground {
+    position: relative;
+}
+
+.overlayBlue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(6, 6, 59, 0.863); /* Color azul con transparencia */
+    z-index: 1;
+}
+
+.blueBackgroundText {
+    position: absolute;
+    top: 20%;
+    left: 5%; 
+    font-family: 'a_PlakatCmpl', Arial, sans-serif;
+    color: white;
+    z-index: 2;
+}
+
+.blueBackgroundText h1,
+.blueBackgroundText p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+#backgroundIndex4 {
+    width: 198dvh;
+}
+
+.cyanTextWithBackground {
+    position: relative;
+}
+
+.overlayCyan {
+    position: absolute;
+    top: 0;
+    right: 0; /* Ajusta la posición a la derecha */
+    width: 50%; /* Ocupa la mitad del contenedor */
+    height: 100%; /* Ocupa la altura completa del contenedor */
+    background-color: rgba(0, 255, 255, 0.5); /* Color cyan con transparencia */
+    z-index: 1; /* Asegura que el overlay esté por encima de la imagen de fondo */
+}
+
+.cyanBackgroundText {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    font-family: 'a_PlakatCmpl', Arial, sans-serif;
+    color: white;
+    z-index: 2; /* Asegura que el texto esté por encima del overlay */
+}
+
+.cyanBackgroundText h1,
+.cyanBackgroundText p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+/*Advantages */
 
 #contentBanner {
     height: 32dvh;
@@ -62,4 +216,10 @@ footer {
 
 .footerIcon {
     height: 65px;
+    
 }
+
+
+
+
+

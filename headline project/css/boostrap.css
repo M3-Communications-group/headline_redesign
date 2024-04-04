@@ -24,3 +24,11 @@
     border-radius: 50%;
     vertical-align: middle; /* Alinear verticalmente con el texto */
 }
+
+/* buttom our services*/
+.bi-chevron-double-right {
+    color: #923c75; /* Color deseado para el icono */
+    text-decoration: none; /* Quitar subrayado por defecto */
+    border-bottom: 1px solid #923c75; /* Agregar un subrayado del mismo color */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el icono */
+}
