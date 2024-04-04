@@ -164,7 +164,7 @@
     right: 0; /* Ajusta la posición a la derecha */
     width: 50%; /* Ocupa la mitad del contenedor */
     height: 100%; /* Ocupa la altura completa del contenedor */
-    background-color: rgba(0, 255, 255, 0.5); /* Color cyan con transparencia */
+    background-color:#158ac9e8; /* Color cyan con transparencia */
     z-index: 1; /* Asegura que el overlay esté por encima de la imagen de fondo */
 }
 
@@ -202,7 +202,6 @@
 }
 
 #content {
-    border: 1px solid black;
     height: 350dvh;
     min-height: 3000px;
 }
@@ -211,15 +210,36 @@ footer {
     height: 60dvh;
     min-height: 494px;
     font-size: 20px;
-    border: 1px solid black;
+    position: relative; /* Permite posicionar el círculo correctamente */
 }
 
-.footerIcon {
-    height: 65px;
-    
+.circle {
+    position: absolute;
+    margin-top: 10vh;
+    top: -30px; /* Ajusta la posición del círculo */
+    left: 50%; /* Centra el círculo horizontalmente */
+    transform: translateX(-50%); /* Centra el círculo horizontalmente */
+    width: 100px; /* Diámetro del círculo */
+    height: 100px; /* Diámetro del círculo */
+    background-color: #8d4372; /* Color del círculo */
+    border-radius: 50%; /* Hace que el elemento sea un círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.circle-text {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
 
+.circle-text a {
+    color: white;
+    text-decoration: none;
+}
 
-
-
+.contactUs{
+    text-align: center;
+    margin-bottom: -10vh;
+}
