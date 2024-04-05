@@ -1,3 +1,125 @@
+/* BOOSTRAP*/
+
+/* Estilos para los enlaces de navegación */
+.navbar-nav .nav-link {
+    color: #923c75;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 10pt;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+/* Estilos para el logotipo de la barra de navegación */
+.navbar-brand {
+    margin-left: 20px;
+}
+
+/* Estilos para los iconos */
+.bg-icon,
+.social-icon {
+    width: 30px;
+    border-radius: 50%;
+    vertical-align: middle; /* Alinear verticalmente con el texto */
+}
+
+/* buttom our services*/
+.bi-chevron-double-right {
+    color: #923c75; /* Color deseado para el icono */
+    text-decoration: none; /* Quitar subrayado por defecto */
+    border-bottom: 1px solid #923c75; /* Agregar un subrayado del mismo color */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el icono */
+}
+
+
+
+
+
+@font-face {
+    font-family: 'a_Plakat_Cmpl';
+    src: url('fonts/a_PlakatCmpl_ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/Open\ Sans\ Light.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.nav-link {
+    font-family: 'Open Sans Light';
+    color: #923c75;
+}
+
+#pageTitle{
+    margin-left: 15vw;
+}
+
+#pageTitle {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'a_Plakat_Cmpl', Arial, sans-serif;;
+}
+.whiteLabel {
+    border-left: 3px solid purple;
+    background-color: rgb(255, 255, 255);
+}
+
+#infoDiv{
+    height: 543px;
+    background-image: url(../assets/images/InformationBg.png);
+}
+
+footer {
+    height: 60dvh;
+    min-height: 494px;
+    font-size: 20px;
+}
+
+.rhombus{
+    height: 100px;
+    width: 100px;
+    transform: rotate(45deg);
+}
+
+.footerIcon {
+    height: 65px;
+}
+
+/* CUSTOM COLORS */
+.colorPurple {
+    color: #923c75
+}
+
+.colorLightGrey {
+    background-color: #f5f5f5;
+}
+
+.notification {
+    position: absolute;
+    bottom: -1.5vw;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: solid;
+    border-width: 2vw 2vw 0;
+    border-color: #f5f5f5 transparent transparent;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 @font-face {
@@ -243,3 +365,5 @@ footer {
     text-align: center;
     margin-bottom: -10vh;
 }
+
+
