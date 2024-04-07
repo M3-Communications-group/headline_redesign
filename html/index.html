@@ -1,59 +1,66 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>HeadLine</title> 
-    <!--styles --> 
-    <link rel="stylesheet" href="\css\style.css"> 
-    <!--Boostrap import--> 
- 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
-</head> 
-<body> 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
-        <div class="container-fluid"> 
-            <a class="navbar-brand" href="index.html"> 
-                <img src="\assets\images\headline_logo_new.png" alt="Logo" width="80%" class="d-inline-block align-text-top"> 
-            </a> 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> 
-                <span class="navbar-toggler-icon"></span> 
-            </button> 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav"> 
-                <ul class="navbar-nav"> 
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="company.html">COMPANY</a> 
-                    </li> 
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="#">SERVICES</a> 
-                    </li> 
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="advantages.html">ADVANTAGES</a> 
-                    </li> 
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="#">TEAM</a> 
-                    </li> 
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="#">CONTACTS</a> 
-                    </li> 
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="#"> 
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/256px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" class="bg-icon"> 
-                        </a> 
-                    </li> 
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="#"> 
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/256px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" class="social-icon"> 
-                        </a> 
-                    </li> 
-                </ul> 
-            </div> 
-        </div> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeadLine</title>
+    <!--styles -->
+    <link rel="stylesheet" href="\css\style.css">
+    <!--Boostrap import-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--  -->
+    <!-- CUSTOM JS -->
+    <script src="../js/app.js"></script>
+    <!--  -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white px-4 py-5">
+        <div class="container-fluid">
+            <a id="HeadlineLogo" class="navbar-brand" href="./index.html">
+                <img src="../assets/images/headline_logo_new.png" alt="Headline Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item mx-1 fs-5">
+                        <a class="nav-link " href="./company.html">COMPANY</a>
+                    </li>
+                    <li class="nav-item mx-1 fs-5">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item mx-1 fs-5">
+                        <a class="nav-link" href="./advantages.html">ADVANTAGES</a>
+                    </li>
+                    <li class="nav-item mx-1 fs-5">
+                        <a class="nav-link" href="#">TEAM</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a href="#"><img src="../assets/icons/fb.png" alt="BG image"></a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a href=""><img src="../assets/icons/fb.png" alt="Facebook logo"></a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
+    <!-- HEADER BANNER -->
 
     <div id="headerLogo " class="d-flex align-items-center">
         <img class="img-fluid z-n1" src="\assets\images\Background_index.png">
@@ -70,73 +77,136 @@
         </div>
 
     </div>
+<!--  -->
 
+    <!-- SLIDER -->
 
-    <div class="slider colorLightGrey" style="height: 15rem;">
-        <div class="container-fluid">
-            <div id="carousel" class="d-flex flex-row justify-content-start align-items-center"
+    <div class="slider py-5" style="background-color: rgba(241, 241, 241, 0.905);">
+        <div class="d-flex justify-content-center my-5">
+            <h4 class="fw-light fs-4">TRUSTED BY FORWARD-THINKING COMPANIES AROUND THE WORLD</h4>
+        </div>
+        <div class="container-fluid d-flex">
+            <div class="d-flex justify-content-center" style="width: 7rem; font-size: 5rem;">
+                <i id="prevButton" class="bi bi-chevron-compact-left"></i>
+            </div>
+            <div id="carousel" class="container-fluid d-flex flex-row justify-content-start align-items-center"
                 style="overflow: hidden;">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/AE_logo.png" alt="">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/chobani_logo.png" alt="">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/comcast_logo.png" alt="">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/golin.png" alt="">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/taco_bell.png" alt="">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/tumi_logo.png" alt="">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/headspace.png" alt="">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/AE_logo.png" alt="">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/chobani_logo.png" alt="">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/comcast_logo.png" alt="">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/golin.png" alt="">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/taco_bell.png" alt="">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/tumi_logo.png" alt="">
-                <img class="col-2 carousel-image mx-3" src="../assets/collabs/headspace.png" alt="">
+                <img class="col-2 carousel-image mx-2" src="../assets/collabs/AE_logo.png" alt="">
+                <img class="col-2 carousel-image mx-2" src="../assets/collabs/chobani_logo.png" alt="">
+                <img class="col-2 carousel-image mx-2" src="../assets/collabs/comcast_logo.png" alt="">
+                <img class="col-2 carousel-image mx-2" src="../assets/collabs/golin.png" alt="">
+                <img class="col-2 carousel-image mx-2" src="../assets/collabs/taco_bell.png" alt="">
+                <img class="col-2 carousel-image mx-2" src="../assets/collabs/headspace.png" alt="">
+                <img class="col-2 carousel-image mx-2" src="../assets/collabs/tumi_logo.png" alt="">
+            </div>
+            <div class="d-flex justify-content-center" style="width: 7rem; font-size: 5rem;">
+                <i id="nextButton" class="bi bi-chevron-compact-right"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <!--  -->
+
+    <div class="container-fluid headlineInfo d-flex flex-column align-items-center">
+        <div class="container w-75 text-center">
+            <h3 class="fw-light fs-3 my-5 colorPurple">HeadLine is a leading media monitoring company in Bulgaria with
+                more
+                than 10 years of experience in the
+                field</h3>
+            <p class="fw-light fs-5 text-center">We provide intelligent tailor-made services,which
+                correspond to every company´s individual
+                needs,requirements
+                and standars. <br>
+                The options are various - press and online monitoring on a daily,weekly or monthly basis as well as
+                event,advertising and crisis monitoring. <a href="services.html"><i
+                        class="bi bi-chevron-double-right fw-bold"></i></a></p>
+
+            <h2 class="fs-1 fw-light colorPurple my-5 pb-5">OUR SERVICES</h2>
+        </div>
+
+    </div>
+
+    <!-- IMAGES WITH FILTERS -->
+    <div class="container-fluid p-0 d-flex" style="height: 32.5rem;">
+        <div class="row z-n1 position-absolute">
+            <img class="img" src="\assets\images\background_3.png">
+        </div>
+
+        <div class="container-fluid p-0 w-100 h-100 d-flex">
+            <div class="w-50"></div>
+
+            <div class="w-50 d-flex flex-column justify-content-center text-light"
+                style="background-color: #923c75d3;">
+                <div class="ms-3 ps-3" style="border-left: 5px solid white;">
+                    <h1>Press & Online Monitoring</h1>
+                </div>
+                <div>
+                    <p>HeadLine provides press monitoring of all national, regional and specialized daily, weekly and
+                        monthly
+                        issues, as well as online monitoring of news websites, information agencies, portals, forums,
+                        blogs
+                        and
+                        social media. <a href="services.html"><i class="bi bi-chevron-double-right"></i></a></p>
+                </div>
 
             </div>
         </div>
-        <div>
-            <button id="startButton">Comenzar</button>
+    </div>
+
+    <div class="container-fluid p-0 d-flex" style="height: 32.5rem;">
+        <div class="row z-n1 position-absolute">
+            <img class="img" src="\assets\images\background_3.png">
+        </div>
+
+        <div class="container-fluid p-0 w-100 h-100 d-flex">
+            <div class="w-50 d-flex flex-column justify-content-center text-light"
+                style="background-color: #01023cd2;">
+                <div class="ms-3 ps-3" style="border-left: 5px solid white;">
+                    <h1>Press & Online Monitoring</h1>
+                </div>
+                <div>
+                    <p>HeadLine provides press monitoring of all national, regional and specialized daily, weekly and
+                        monthly
+                        issues, as well as online monitoring of news websites, information agencies, portals, forums,
+                        blogs
+                        and
+                        social media. <a href="services.html"><i class="bi bi-chevron-double-right"></i></a></p>
+                </div>
+
+            </div>
+            <div class="w-50"></div>
         </div>
     </div>
-    <div class="headlineInfo">
-        <h3>HeadLine is a leading media monitoring company in Bulgaria with more than 10 years of experience in the
-            field</h3>
-        <p>We provide intelligent tailor-made services,which correspond to every company´s individual needs,requirements
-            and standars.</p>
-        <p>The options are various - press and online monitoring on a daily,weekly or monthly basis as well as
-            event,advertising and crisis monitoring. <a href="services.html"><i
-                    class="bi bi-chevron-double-right"></i></a></p>
-        <h1>OUR SERVICES</h1>
-    </div>
-    <div class="textWithBackground">
-        <div class="overlayPurple"></div>
-        <img id="backgroundIndex2" src="\assets\images\background_1.png">
-        <div class="backgroundText">
-            <h1>Press & Online Monitoring</h1>
-            <p>HeadLine provides press monitoring of all national, regional and specialized daily, weekly and monthly
-                issues, as well as online monitoring of news websites, information agencies, portals, forums, blogs and
-                social media. <a href="services.html"><i class="bi bi-chevron-double-right"></i></a></p>
+
+    <div class="container-fluid p-0 d-flex" style="height: 32.5rem;">
+        <div class="row z-n1 position-absolute">
+            <img class="img" src="\assets\images\background_3.png">
+        </div>
+
+        <div class="container-fluid p-0 w-100 h-100 d-flex">
+            <div class="w-50"></div>
+
+            <div class="w-50 d-flex flex-column justify-content-center text-light"
+                style="background-color: #0076b6c4;">
+                <div class="ms-3 ps-3" style="border-left: 5px solid white;">
+                    <h1>Press & Online Monitoring</h1>
+                </div>
+                <div>
+                    <p>HeadLine provides press monitoring of all national, regional and specialized daily, weekly and
+                        monthly
+                        issues, as well as online monitoring of news websites, information agencies, portals, forums,
+                        blogs
+                        and
+                        social media. <a href="services.html"><i class="bi bi-chevron-double-right"></i></a></p>
+                </div>
+
+            </div>
         </div>
     </div>
-    <div class="blueTextWithBackground">
-        <div class="overlayBlue"></div>
-        <img id="backgroundIndex3" src="\assets\images\background_2.png">
-        <div class="blueBackgroundText">
-            <h1>Media Analyses & Reports</h1>
-            <p>Covering various periods of time, Headline gathers, maintains, arranges, analyzes and summarizes all the
-                media information, its clients need to see systematic and evaluated.<a href="services.html"><i
-                        class="bi bi-chevron-double-right"></i></a></p>
-        </div>
-    </div>
-    <div class="cyanTextWithBackground">
-        <div class="overlayCyan"></div>
-        <img id="backgroundIndex4" src="\assets\images\background_3.png">
-        <div class="cyanBackgroundText">
-            <h1>Event & Crisis Monitoring</h1>
-            <p>HeadLine provides extremely fast feedback,option for up-to-hour information statistics about the
-                development of a dynamic problem and evaluation of the media content. <a href="services.html"><i
-                        class="bi bi-chevron-double-right"></i></a></p>
-        </div>
-    </div>
+
+    <!--  -->
+
 
 
     <footer class="container d-flex align-items-center justify-content-end flex-column mb-5 pb-3">
