@@ -34,10 +34,7 @@
     background-color: rgb(255, 255, 255);
 }
 
-#infoDiv{
-    height: 543px;
-    background-image: url(../assets/images/InformationBg.png);
-}
+
 
 footer {
     height: 60dvh;
