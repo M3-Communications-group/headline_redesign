@@ -15,11 +15,11 @@
     color: #923c75;
 }
 
-.text-pink{
+.text-pink {
     color: #923c75;
 }
 
-#pageTitle{
+#pageTitle {
     margin-left: 15vw;
 }
 
@@ -27,8 +27,10 @@
     font-size: 70px;
     text-transform: uppercase;
     color: #ffffff;
-    font-family: 'a_Plakat_Cmpl', Arial, sans-serif;;
+    font-family: 'a_Plakat_Cmpl', Arial, sans-serif;
+    ;
 }
+
 .whiteLabel {
     border-left: 3px solid purple;
     background-color: rgb(255, 255, 255);
@@ -42,7 +44,7 @@ footer {
     font-size: 20px;
 }
 
-.rhombus{
+.rhombus {
     height: 100px;
     width: 100px;
     transform: rotate(45deg);
@@ -73,51 +75,55 @@ footer {
 
 
 /*  */
-/* BOOSTRAP*/ 
- 
-/* Estilos para los enlaces de navegación */ 
-.navbar-nav .nav-link { 
-    color: #923c75; 
-    font-family: "Open Sans", sans-serif; 
-    font-optical-sizing: auto; 
-    font-weight: normal; 
-    font-style: normal; 
-    font-variation-settings: "wdth" 100; 
-    font-size: 10pt; 
-    margin-top: 20px; 
-    margin-bottom: 5px; 
-    margin-right: 10px; 
-} 
- 
-/* Estilos para el logotipo de la barra de navegación */ 
-.navbar-brand { 
-    margin-left: 20px; 
-} 
- 
-/* Estilos para los iconos */ 
-.bg-icon, 
-.social-icon { 
-    width: 30px; 
-    border-radius: 50%; 
-    vertical-align: middle; /* Alinear verticalmente con el texto */ 
-} 
- 
-/* buttom our services*/ 
-.bi-chevron-double-right { 
-    color: #923c75; /* Color deseado para el icono */ 
-    text-decoration: none; /* Quitar subrayado por defecto */ 
-    border-bottom: 1px solid #923c75; /* Agregar un subrayado del mismo color */ 
-    cursor: pointer; /* Cambiar el cursor al pasar sobre el icono */ 
+/* BOOSTRAP*/
+
+/* Estilos para los enlaces de navegación */
+.navbar-nav .nav-link {
+    color: #923c75;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 10pt;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+/* Estilos para el logotipo de la barra de navegación */
+.navbar-brand {
+    margin-left: 20px;
+}
+
+/* Estilos para los iconos */
+.bg-icon,
+.social-icon {
+    width: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+    /* Alinear verticalmente con el texto */
+}
+
+/* buttom our services*/
+.bi-chevron-double-right {
+    color: #923c75;
+    /* Color deseado para el icono */
+    text-decoration: none;
+    /* Quitar subrayado por defecto */
+    border-bottom: 1px solid #923c75;
+    /* Agregar un subrayado del mismo color */
+    cursor: pointer;
+    /* Cambiar el cursor al pasar sobre el icono */
 }
 
 
 /*  OUR SERVICES   */
 
-
-/* IMAGES WITH SERVICES*/
 .image-container {
     position: relative;
-    width: 100%; /* Ajustar el ancho de acuerdo al contenedor padre */
+    width: 100%;
+    /* Ajustar el ancho de acuerdo al contenedor padre */
 }
 
 
@@ -128,72 +134,102 @@ footer {
 
 .pink-box {
     position: absolute;
-    background-color: #a43780ea; /* Color rosa */
-    width: 50%; /* Ancho del div rosa */
-    height: 100%; /* Igual a la altura de la imagen */
-    top: 0; /* Alineado arriba */
-    right: 0; /* Alineado a la derecha */
+    background-color: #a43780ea;
+    /* Color rosa */
+    width: 50%;
+    /* Ancho del div rosa */
+    height: 100%;
+    /* Igual a la altura de la imagen */
+    top: 0;
+    /* Alineado arriba */
+    right: 0;
+    /* Alineado a la derecha */
     display: flex;
-    flex-direction: column; /* Cambio a dirección de columna */
-    align-items: flex-start; /* Alinear contenido a la izquierda */
+    flex-direction: column;
+    /* Cambio a dirección de columna */
+    align-items: flex-start;
+    /* Alinear contenido a la izquierda */
     justify-content: center;
-    padding: 20px; /* Añadir espacio interior */
+    padding: 20px;
+    /* Añadir espacio interior */
     color: white;
 }
 
 .title {
-    font-size: 2.5vw; /* Tamaño de fuente responsive */
-    margin-bottom: 2vw; /* Margen inferior responsive */
+    font-size: 2.5vw;
+    /* Tamaño de fuente responsive */
+    margin-bottom: 2vw;
+    /* Margen inferior responsive */
     margin-left: 1.5vw;
 }
 
 .title span {
-    border-left: 0.2vw solid rgb(255, 255, 255); /* Grosor de borde responsive */
-    padding-left: 2vw; /* Espacio adicional para el borde izquierdo responsive */
+    border-left: 0.2vw solid rgb(255, 255, 255);
+    /* Grosor de borde responsive */
+    padding-left: 2vw;
+    /* Espacio adicional para el borde izquierdo responsive */
 }
 
 .info {
-    font-size: 1vw; /* Tamaño de fuente responsive */
-    margin-top: 1vw; /* Margen superior responsive */
-    margin-bottom: 1vw; /* Margen inferior responsive */
+    font-size: 1vw;
+    /* Tamaño de fuente responsive */
+    margin-top: 1vw;
+    /* Margen superior responsive */
+    margin-bottom: 1vw;
+    /* Margen inferior responsive */
     padding-left: 4vw;
 }
 
 
 .blue-box {
     position: absolute;
-    background-color: #06063de8; /* Color azul */
-    width: 50%; /* Ancho del div azul */
-    height: 100%; /* Igual a la altura de la imagen */
-    top: 0; /* Alineado arriba */
-    left: 0; /* Alineado a la izquierda */
+    background-color: #06063de8;
+    /* Color azul */
+    width: 50%;
+    /* Ancho del div azul */
+    height: 100%;
+    /* Igual a la altura de la imagen */
+    top: 0;
+    /* Alineado arriba */
+    left: 0;
+    /* Alineado a la izquierda */
     display: flex;
-    flex-direction: column; /* Cambio a dirección de columna */
-    align-items: flex-end; /* Alinear contenido a la derecha */
+    flex-direction: column;
+    /* Cambio a dirección de columna */
+    align-items: flex-end;
+    /* Alinear contenido a la derecha */
     justify-content: center;
-    padding: 20px; /* Añadir espacio interior */
+    padding: 20px;
+    /* Añadir espacio interior */
     color: white;
 }
 
 .blue-title-container {
-    border-right: 0.3vw solid #fff; /* Borde a la derecha */
-    padding-right: 10px; /* Espacio adicional para el borde derecho */
+    border-right: 0.3vw solid #fff;
+    /* Borde a la derecha */
+    padding-right: 10px;
+    /* Espacio adicional para el borde derecho */
     margin-right: 3vw;
 }
 
 .blue-title {
     margin-right: 2vw;
-    font-size: 2.5vw; /* Tamaño del título / / Espacio entre el título y el párrafo */
-    text-align: right; /* Alinear título a la derecha */
+    font-size: 2.5vw;
+    /* Tamaño del título / / Espacio entre el título y el párrafo */
+    text-align: right;
+    /* Alinear título a la derecha */
 }
 
 
 
 .blue-info {
     margin-top: 2vw;
-    font-size: 1vw; /* Tamaño del párrafo responsive */   
-    margin-bottom: 1vw; /* Margen inferior responsive */
-    text-align: right; /* Alinear texto a la derecha */
+    font-size: 1vw;
+    /* Tamaño del párrafo responsive */
+    margin-bottom: 1vw;
+    /* Margen inferior responsive */
+    text-align: right;
+    /* Alinear texto a la derecha */
     margin-right: 6vw;
 }
 
@@ -201,15 +237,23 @@ footer {
 
 .cyan-box {
     position: absolute;
-    background-color: #0570a9e7; /* Color cyan */
-    width: 50%; /* Ancho del div cyan */
-    height: 100%; /* Igual a la altura de la imagen */
-    top: 0; /* Alineado arriba */
-    right: 0; /* Alineado a la derecha */
+    background-color: #0570a9e7;
+    /* Color cyan */
+    width: 50%;
+    /* Ancho del div cyan */
+    height: 100%;
+    /* Igual a la altura de la imagen */
+    top: 0;
+    /* Alineado arriba */
+    right: 0;
+    /* Alineado a la derecha */
     display: flex;
-    flex-direction: column; /* Cambio a dirección de columna */
-    align-items: flex-start; /* Alinear contenido a la izquierda */
+    flex-direction: column;
+    /* Cambio a dirección de columna */
+    align-items: flex-start;
+    /* Alinear contenido a la izquierda */
     justify-content: center;
-    padding: 20px; /* Añadir espacio interior */
+    padding: 20px;
+    /* Añadir espacio interior */
     color: white;
 }
