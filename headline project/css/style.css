@@ -179,21 +179,28 @@ footer {
 }
 
 .blue-title-container {
-    border-right: 1px solid #fff; /* Borde a la derecha */
+    border-right: 0.3vw solid #fff; /* Borde a la derecha */
     padding-right: 10px; /* Espacio adicional para el borde derecho */
+    margin-right: 3vw;
 }
 
 .blue-title {
-    font-size: 2.5vw; /* Tamaño del título */
-    margin-bottom: 2vw; /* Espacio entre el título y el párrafo */
+    margin-right: 2vw;
+    font-size: 2.5vw; /* Tamaño del título */ /* Espacio entre el título y el párrafo */
     text-align: right; /* Alinear título a la derecha */
 }
 
+
+.blue-title,.blue-info{
+
+}
+
 .blue-info {
+    margin-top: 2vw;
     font-size: 1vw; /* Tamaño del párrafo responsive */   
     margin-bottom: 1vw; /* Margen inferior responsive */
     text-align: right; /* Alinear texto a la derecha */
-    margin-right: 2.5vw;
+    margin-right: 6vw;
 }
 
 
@@ -212,3 +219,10 @@ footer {
     padding: 20px; /* Añadir espacio interior */
     color: white;
 }    
+
+
+
+
+
+
+
