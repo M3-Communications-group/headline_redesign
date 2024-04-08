@@ -15,6 +15,10 @@
     color: #923c75;
 }
 
+.text-pink{
+    color: #923c75;
+}
+
 #pageTitle{
     margin-left: 15vw;
 }
@@ -57,7 +61,7 @@ footer {
 }
 
 .colorLightGrey {
-    background-color: #f5f5f5;
+    background-color: #f5f5f55e;
 }
 
 .notification {
@@ -72,3 +76,140 @@ footer {
 
 
 /*  */
+/* BOOSTRAP*/ 
+ 
+/* Estilos para los enlaces de navegación */ 
+.navbar-nav .nav-link { 
+    color: #923c75; 
+    font-family: "Open Sans", sans-serif; 
+    font-optical-sizing: auto; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-variation-settings: "wdth" 100; 
+    font-size: 10pt; 
+    margin-top: 20px; 
+    margin-bottom: 5px; 
+    margin-right: 10px; 
+} 
+ 
+/* Estilos para el logotipo de la barra de navegación */ 
+.navbar-brand { 
+    margin-left: 20px; 
+} 
+ 
+/* Estilos para los iconos */ 
+.bg-icon, 
+.social-icon { 
+    width: 30px; 
+    border-radius: 50%; 
+    vertical-align: middle; /* Alinear verticalmente con el texto */ 
+} 
+ 
+/* buttom our services*/ 
+.bi-chevron-double-right { 
+    color: #923c75; /* Color deseado para el icono */ 
+    text-decoration: none; /* Quitar subrayado por defecto */ 
+    border-bottom: 1px solid #923c75; /* Agregar un subrayado del mismo color */ 
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el icono */ 
+}
+
+
+/*  OUR SERVICES   */
+
+
+/* IMAGES WITH SERVICES*/
+.image-container {
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+}
+
+.pink-box {
+    position: absolute;
+    background-color: #a43780ea; /* Color rosa */
+    width: 50%; /* Ancho del div rosa */
+    height: 100%; /* Igual a la altura de la imagen */
+    top: 0; /* Alineado arriba */
+    right: 0; /* Alineado a la derecha */
+    display: flex;
+    flex-direction: column; /* Cambio a dirección de columna */
+    align-items: flex-start; /* Alinear contenido a la izquierda */
+    justify-content: center;
+    padding: 20px; /* Añadir espacio interior */
+    color: white;
+}
+
+.title {
+    font-size: 28px; /* Tamaño del título */
+    margin-bottom: 30px; /* Espacio entre el título y el párrafo */
+    text-align: left; /* Alinear título a la izquierda */
+    padding-left: 10px; /* Añadir espacio para el borde izquierdo */
+    position: relative; /* Establecer posición relativa */
+}
+
+.title span {
+    border-left: 3px solid rgb(255, 255, 255); /* Añadir borde izquierdo */
+    padding-left: 20px; /* Espacio adicional para el borde izquierdo */
+}
+
+.info {
+    font-size: 18px; /* Tamaño del párrafo */
+    text-align: left; /* Alinear párrafo a la izquierda */
+    line-height: 1.5; /* Altura de línea */
+    margin-left: 35px; /* Desplazamiento hacia la derecha */
+    color: white;
+}
+
+.blue-box {
+    position: absolute;
+    background-color: #06063de8; /* Color azul */
+    width: 50%; /* Ancho del div azul */
+    height: 100%; /* Igual a la altura de la imagen */
+    top: 0; /* Alineado arriba */
+    left: 0; /* Alineado a la izquierda */
+    display: flex;
+    flex-direction: column; /* Cambio a dirección de columna */
+    align-items: flex-end; /* Alinear contenido a la derecha */
+    justify-content: center;
+    padding: 20px; /* Añadir espacio interior */
+    color: white;
+}
+
+.blue-title-container {
+    border-right: 3px solid #fff; /* Borde a la derecha */
+    padding-right: 10px; /* Espacio adicional para el borde derecho */
+}
+
+.blue-title {
+    font-size: 28px; /* Tamaño del título */
+    margin-bottom: 20px; /* Espacio entre el título y el párrafo */
+    text-align: right; /* Alinear título a la derecha */
+}
+
+.blue-info {
+    font-size: 18px; /* Tamaño del párrafo */
+    text-align: right; /* Alinear párrafo a la derecha */
+    line-height: 1.5; /* Altura de línea */
+    max-height: 4.5em; /* Máximo de tres líneas (3 líneas * altura de línea) */
+    overflow: hidden; /* Ocultar el exceso de texto */
+}
+
+
+
+.cyan-box {
+    position: absolute;
+    background-color: #0570a9e7; /* Color cyan */
+    width: 50%; /* Ancho del div cyan */
+    height: 100%; /* Igual a la altura de la imagen */
+    top: 0; /* Alineado arriba */
+    right: 0; /* Alineado a la derecha */
+    display: flex;
+    flex-direction: column; /* Cambio a dirección de columna */
+    align-items: flex-start; /* Alinear contenido a la izquierda */
+    justify-content: center;
+    padding: 20px; /* Añadir espacio interior */
+    color: white;
+}
