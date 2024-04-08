@@ -1,23 +1,33 @@
-$(document).ready(function() {
-    $('#startButton').click(function() {
-        $(this).prop('disabled', true); 
-        slide($('#carousel'), function() {
-            $('#startButton').prop('disabled', false); 
-        });
+$(document).ready(function () {
+    $('#prevButton').click(function (e) {
+        e.preventDefault();
+        slide($('#carousel'), -1);
     });
 
-    function slide(carousel, callback) {
-        var firstImage = carousel.find('.carousel-image:first');
-        var imageWidth = firstImage.outerWidth(true);
+    $('#nextButton').click(function (e) {
+        e.preventDefault();
+        slide($('#carousel'), 1);
+    });
 
-        if (carousel.scrollLeft() + carousel.width() >= carousel[0].scrollWidth) {
-            carousel.append(firstImage.clone());
-            firstImage.remove();
-            carousel.scrollLeft(carousel.scrollLeft() - imageWidth);
+    function slide(carousel, direction) {
+        carousel.stop();
+
+        if (direction == 1) {
+            var firstImage = carousel.find('.carousel-image:first');
+            var imageWidth = firstImage.outerWidth(true);
+
+            carousel.animate({ 'scrollLeft': '+=' + imageWidth }, 1000);
+        }
+        if (direction == -1) {
+            var lasttImage = carousel.find('.carousel-image:last');
+            var imageWidth = lasttImage.outerWidth(true);
+
+            carousel.animate({ 'scrollLeft': '-=' + imageWidth }, 1000);
         }
 
-        carousel.animate({ 'scrollLeft': '+=' + imageWidth }, 1000, callback);
     }
+
+
 
 
 

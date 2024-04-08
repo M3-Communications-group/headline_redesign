@@ -34,10 +34,7 @@
     background-color: rgb(255, 255, 255);
 }
 
-#infoDiv{
-    height: 543px;
-    background-image: url(../assets/images/InformationBg.png);
-}
+
 
 footer {
     height: 60dvh;
@@ -61,7 +58,7 @@ footer {
 }
 
 .colorLightGrey {
-    background-color: #f5f5f55e;
+    background-color: #f5f5f5;
 }
 
 .notification {
@@ -186,14 +183,11 @@ footer {
 
 .blue-title {
     margin-right: 2vw;
-    font-size: 2.5vw; /* Tamaño del título */ /* Espacio entre el título y el párrafo */
+    font-size: 2.5vw; /* Tamaño del título / / Espacio entre el título y el párrafo */
     text-align: right; /* Alinear título a la derecha */
 }
 
 
-.blue-title,.blue-info{
-
-}
 
 .blue-info {
     margin-top: 2vw;
@@ -218,11 +212,4 @@ footer {
     justify-content: center;
     padding: 20px; /* Añadir espacio interior */
     color: white;
-}    
-
-
-
-
-
-
-
+}

@@ -14,53 +14,52 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <!--  -->
-    
+
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="\css\style.css">
-    
+
     <!-- CUSTOM JS -->
     <!--  -->
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white p-4">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="\assets\images\headline_logo_new.png" alt="Logo" width="80%"
-                    class="d-inline-block align-text-top">
+                <img src="\assets\images\headline_logo_new.png" alt="home" class="d-inline-block align-text-top" style="width: 12vw; min-width: 150px">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav fw-light d-flex align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="company.html">COMPANY</a>
+                        <a class="nav-link" href="company.html" style="font-size: 1vw;">COMPANY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICES</a>
+                        <a class="nav-link" href="#" style="font-size: 1vw;">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="advantages.html">ADVANTAGES</a>
+                        <a class="nav-link" href="advantages.html" style="font-size: 1vw;">ADVANTAGES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">TEAM</a>
+                        <a class="nav-link" href="#" style="font-size: 1vw;">TEAM</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACTS</a>
+                        <a class="nav-link" href="#" style="font-size: 1vw;">CONTACTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link " href="#">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/256px-Facebook_f_logo_%282019%29.svg.png"
-                                alt="Facebook" class="bg-icon">
+                                alt="Facebook" class="bg-icon" style="width: 2.5vw;">
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link " href="#">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/256px-Facebook_f_logo_%282019%29.svg.png"
-                                alt="Facebook" class="social-icon">
+                                alt="Facebook" class="social-icon" style="width: 2.5vw;">
                         </a>
                     </li>
                 </ul>
@@ -70,15 +69,15 @@
 
     <!-- Top banner -->
     <div id="contentBanner" class="d-flex align-items-center">
-        <img class="img-fluid z-n1 " src="../assets/images/contentBanner_bg.gif" alt="">
-        <h1 id="pageTitle" class="z-0 position-absolute fs-1">COMPANY</h1>
+        <img class="img-fluid" src="../assets/images/contentBanner_bg.gif" alt="">
+        <h1 id="pageTitle" class="z-0 position-absolute" style="font-size: 3vw;">COMPANY</h1>
     </div>
     <!--  -->
 
     <!-- EXPLANATION -->
 
     <div class="container-fluid colorLightGrey">
-        <div class="container py-5">
+        <div class="container py-3">
             <h2 class="fw-light fs-2 colorPurple my-5">HeadLine is a leading media monitoring company in Bulgaria with
                 more
                 than 10 years of experience in the field</h2>
@@ -156,14 +155,14 @@
     <!--  -->
 
     <!-- DIVIDER -->
-    <div class="container w-50 my-5" style="border-bottom: 5px solid purple;"></div>
+    <!-- <div class="container mt-5" style="border-bottom: 5px solid purple; width: 35vw;"></div> -->
     <!--   -->
 
     <!-- CARDS -->
     <div class="container-fluid my-5 d-flex justify-content-center">
-        <div class="d-flex justify-content-center pt-5 w-75 row">
+        <div class="d-flex justify-content-center row" style="border-top: 5px solid purple;">
             <!-- Card1 -->
-            <div class="card my-3" style="width: 25rem; height: 28rem;border: none;">
+            <div class="card my-3 " style="width: 25rem; height: 28rem;border: none;">
                 <div class="card-body colorLightGrey d-flex p-5">
                     <p class="card-text fw-light">We find, extract and timely deliver you the news, which are
                         determining for your success.</p>
@@ -180,7 +179,7 @@
             <!--  -->
 
             <!-- Card2 -->
-            <div class="card my-3" style="width: 25rem; height: 28rem;border: none;">
+            <div class="card my-3 " style="width: 25rem; height: 28rem;border: none;">
                 <div class="card-body colorLightGrey d-flex p-5">
                     <p class="card-text fw-light">We find, extract and timely deliver you the news, which are
                         determining for your success.</p>
@@ -201,23 +200,23 @@
 
     <!-- CHECKS -->
     <div class="container-fluid my-5 d-flex justify-content-center">
-        <div class="d-flex justify-content-center pt-5 row">
-            <div class="checks d-flex">
-                <div class="d-flex flex-column mx-5 p-4" style="border-left: 1px solid purple; height: 10rem;">
+        <div class="d-flex justify-content-center pt-5">
+            <div class="checks d-flex row">
+                <div class="col w-25 d-flex flex-column mx-5 ps-4 pt-1" style="border-left: 1px solid purple; height: 10rem;">
                     <img class="img-fluid mb-3" src="../assets/images/check.png" alt="" style="width: 2.2rem;">
                     <h4 class="colorPurple fw-light fs-4">Професионализъм</h4>
                 </div>
-                <div class="d-flex flex-column mx-5 p-4" style="border-left: 1px solid purple; height: 10rem;">
+                <div class="col w-25 d-flex flex-column mx-5 ps-4 pt-1" style="border-left: 1px solid purple; height: 10rem;">
                     <img class="img-fluid mb-3" src="../assets/images/check.png" alt="" style="width: 2.2rem;">
                     <h4 class="colorPurple fw-light fs-4">Най-високи <br>
                         етични стандарти</h4>
                 </div>
-                <div class="d-flex flex-column mx-5 p-4" style="border-left: 1px solid purple; height: 10rem;">
+                <div class="col w-25 d-flex flex-column mx-5 ps-4 pt-1" style="border-left: 1px solid purple; height: 10rem;">
                     <img class="img-fluid mb-3" src="../assets/images/check.png" alt="" style="width: 2.2rem;">
                     <h4 class="colorPurple fw-light fs-4">Индивидуален<br>
                         подход</h4>
                 </div>
-                <div class="d-flex flex-column mx-5 p-4" style="border-left: 1px solid purple; height: 10rem;">
+                <div class="col w-25 d-flex flex-column mx-5 ps-4 pt-1" style="border-left: 1px solid purple; height: 10rem;">
                     <img class="img-fluid mb-3" src="../assets/images/check.png" alt="" style="width: 2.2rem;">
                     <h4 class="colorPurple fw-light fs-4">Услуги,<br>
                         изцяло ориентирани<br>
@@ -230,9 +229,9 @@
     <!--  -->
 
     <!--  -->
-    <div class="container-fluid colorLightGrey d-flex justify-content-center align-items-center" style="height: 35rem;">
-        <div class="container text-start w-75">
-            <div class="container fw-light lh-lg " style="height: 15rem;">
+    <div class="container-fluid colorLightGrey d-flex justify-content-center align-items-center">
+        <div class="container text-start w-75 py-5" style="font-size:calc(1em);">
+            <div class="container fw-light py-5">
                 <p><b class="fw-bold">HeadLine</b> обединява амбициозни, отговорни и динамични хора, перфектно владеещи
                     английски език. <br>
                     Нашият екип отлично познава цялата печатна преса и онлайн изданията в България, което е невероятно
@@ -248,7 +247,7 @@
             </div>
 
 
-            <div class="container bg-white  fw-light lh-lg p-5">
+            <div class="container bg-white  fw-light lh-lg p-3 px-5">
                 <p>Ако си отговорен, амбициозен и лоялен, с високо ниво на владеене на английски език и трайни интереси
                     в областта на медия мониторинга
                     и публичните комуникации, можеш да станеш част от нашия екип. Изпрати своята автобиография и
@@ -264,18 +263,22 @@
     <!--  -->
 
     <!-- FOOTER -->
-    <footer class="container d-flex align-items-center justify-content-end flex-column mb-5 pb-3">
-        <h2 class="fs-1 fw-light colorPurple mb-5">CONTACT US</h2>
-        <p class="lh-1"><b>Address: </b>60, Bulgaria Blvd, 1680, Sofia, Bulgaria</p>
-        <p class="lh-1"><b>Phone: </b>+359 2 818 70 10, Fax: +359 2 818 70 11, <b>Mobile: </b>+359 88 766 08 50</p>
-        <p><b>E-mail: </b><a class="colorPurple" href="mailto:office@headline.bg">office@headline.bg</a></p>
-        <div id="footerIcons" class="my-5 py-3">
-            <a href="" class="mx-3"><img class="footerIcon" src="../assets/icons/fb.png" alt=""></a>
-            <a href="" class="mx-3"><img class="footerIcon" src="../assets/icons/yt.png" alt=""></a>
-            <a href="" class="mx-3"><img class="footerIcon" src="../assets/icons/ig.png" alt=""></a>
+    <footer class="container">
+        <div class="container d-flex d align-items-center justify-content-end flex-column my-5 py-5">
+            <h2 class="fs-1 fw-light colorPurple mb-5">CONTACT US</h2>
+            <p class="lh-1"><b>Address: </b>60, Bulgaria Blvd, 1680, Sofia, Bulgaria</p>
+            <p class="lh-1"><b>Phone: </b>+359 2 818 70 10, Fax: +359 2 818 70 11, <b>Mobile: </b>+359 88 766 08 50</p>
+            <p><b>E-mail: </b><a class="colorPurple" href="mailto:office@headline.bg">office@headline.bg</a></p>
+            <div id="footerIcons" class="my-5 py-3">
+                <a href="" class="mx-3"><img class="footerIcon" src="../assets/icons/fb.png" alt=""></a>
+                <a href="" class="mx-3"><img class="footerIcon" src="../assets/icons/yt.png" alt=""></a>
+                <a href="" class="mx-3"><img class="footerIcon" src="../assets/icons/ig.png" alt=""></a>
+            </div>
+            <h6 class="text-body-tertiary mt-5">© 1994 - 2022 All Rights Reserved. Web design and development by by M3
+                Communications Group, Inc.</h6>
         </div>
-        <h6 class="text-body-tertiary ">© 1994 - 2022 All Rights Reserved. Web design and development by by M3
-            Communications Group, Inc.</h6>
+
+
     </footer>
 </body>
 
