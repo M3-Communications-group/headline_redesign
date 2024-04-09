@@ -1,14 +1,15 @@
 @font-face {
     font-family: 'a_Plakat_Cmpl';
-    src: url('fonts/a_PlakatCmpl_ExtraBold.ttf') format('truetype');
+    src: url('fonts/a_PlakatCmpl_ExtraBold.ttf');
 }
 
 @font-face {
     font-family: 'Open Sans Light';
-    src: url('../fonts/Open\ Sans\ Light.ttf') format('truetype');
+    src: url('../fonts/Open\ Sans\ Light.ttf');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 
 .nav-link {
     font-family: 'Open Sans Light';
@@ -53,6 +54,53 @@ footer {
 .footerIcon {
     height: 65px;
 }
+
+/* Header */
+#headerLogo {
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    margin-left: 8vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sup-title {
+    margin-left: 10vw;
+    font-size: 3vw;
+    line-height: -1vw
+}
+
+.sub-title {
+    margin-left: 15vw;
+    font-size: 1.6vw;
+}
+
+.button-title {
+    margin-left: 15vw;
+    font-size: 1.4vw;
+    padding: 1.8vw 1.8vw;
+    margin-top: 1vw;
+}
+
+
+
+
+
 
 /* CUSTOM COLORS */
 .colorPurple {
@@ -259,3 +307,174 @@ footer {
 }
 
 
+/* MEDIA QUERIES */
+
+
+
+@media (max-width: 768px) {
+    .subtittle-media {
+        margin-top: 3rem; /* Reducir el margen superior para dispositivos móviles */
+        margin-bottom: 3rem; /* Reducir el margen inferior para dispositivos móviles */
+    }
+}
+
+
+@media (max-width: 576px) {
+    .sup-tittle-media {
+        font-size: 3.2vw;
+    }
+    .subtittle-media{
+        font-size: 2.8vw;
+    }
+    .button-tittle-media{
+        font-size: 2.5vw;
+        margin: 0 5rem;
+        padding: 0;
+    }
+    .text-media{
+        font-size: 2.3vw;
+    }
+    .text-media2{
+        font-size: 1.6vw;
+    }
+    #footerIcons a{
+        height: 15px;
+    }
+    .advantages-text{
+        font-size: 2.5vw;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .sup-tittle-media {
+        font-size: 3.2vw;
+    }
+    .subtittle-media{
+        font-size: 2.8vw;
+    }
+    .button-tittle-media{
+        font-size: 2.5vw;
+        margin: 0 5rem;
+        padding: 0;
+    }
+    .text-media{
+        font-size: 2.3vw;
+    }
+    .text-media2{
+        font-size: 1.6vw;
+    }
+    #footerIcons a{
+        height: 15px;
+    }
+    .advantages-text{
+        font-size: 2.5vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .sup-tittle-media {
+        font-size: 3.2vw;
+    }
+    .subtittle-media{
+        font-size: 2.5vw;
+    }
+    .button-tittle-media{
+        font-size: 2vw;
+        margin: 0.5vw 7vw;
+        padding: 0.6vw;
+    }
+    .text-media{
+        font-size: 1.8vw;
+    }
+    .text-media2{
+        font-size: 1.8vw;
+    }
+    #footerIcons a{
+        height: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sup-tittle-media {
+        font-size: 3.5vw;
+    }
+    .subtittle-media{
+        font-size: 1.7vw;
+    }
+    .button-tittle-media{
+        font-size: 1.1vw;
+        margin: 3rem 0 0 3rem;
+        padding: 1vw 3vw;
+    }
+    .text-media{
+        font-size:  1.15vw;
+    }
+}
+
+.tittle-media {
+    margin-top: 5rem; /* Margen superior predeterminado */
+    margin-bottom: 5rem; /* Margen inferior predeterminado */
+}
+
+/* Media query para dispositivos con un ancho máximo de 768px (dispositivos móviles) */
+@media (max-width: 768px) {
+    .tittle-media {
+        margin-top: 1rem; /* Reducir el margen superior para dispositivos móviles */
+        margin-bottom: 2rem; /* Reducir el margen inferior para dispositivos móviles */
+    }
+}
+
+
+.carousel-image{
+    max-width: 125px;
+    height: auto;
+}
+
+#carousel {
+    width: calc(300% - 2vw); /* Adjust the width based on image size and margins */
+}   
+
+
+#trustedTitle{
+    text-align: center;
+    font-family: 'a_Plakat_Cmpl', Arial, sans-serif;
+    font-size: 1.3vw;
+}@media (max-width: 768px) {
+    #trustedTitle {
+        font-size: 3vw; /* Tamaño de fuente para dispositivos móviles */
+    }
+}
+
+
+/* Media query para dispositivos con una anchura máxima de 768px (dispositivos móviles) */
+@media (max-width: 768px) {
+    .container-fluid.d-flex {
+        max-width: 100%; /* Ancho máximo del contenedor para dispositivos móviles */
+    }
+}
+
+
+
+
+.circle {
+    position: relative;
+    width: 25%; /* 50% original reducido a la mitad */
+    padding-bottom: 25%; /* 50% original reducido a la mitad */
+    background: #a43780ea;
+    border-radius: 50%;
+  }
+  
+  .circle h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+  }
+  
+  .circle .bi-chevron-double-right {
+    color: white; /* Cambia el color del icono a blanco */
+  }
