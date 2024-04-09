@@ -26,7 +26,8 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white p-4">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="\assets\images\headline_logo_new.png" alt="home" class="d-inline-block align-text-top" style="width: 12vw; min-width: 150px">
+                <img src="\assets\images\headline_logo_new.png" alt="home" class="d-inline-block align-text-top"
+                    style="width: 12vw; min-width: 150px">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -151,6 +152,7 @@
     <!--  -->
 
     <!-- INFORMATION  SECTION -->
+
     <div class="container-fluid mt-5 pb-2">
         <div class="container d-flex justify-content-center">
             <h2 class="fs-2 fw-light colorPurple">HeadLine, because we...</h2>
@@ -171,53 +173,107 @@
         </div>
     </div>
 
+    <!-- For screens with vw >= 1400px -->
+    <div class="d-xxl-block d-sm-none d-xs-none">
+        <div id="infoDiv " class="d-flex flex-row">
+            <div class="position-relative">
+                <img class="img-fluid" src="../assets/images/InformationBg.png">
 
-    <div id="infoDiv " class="d-flex align-items-center row">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 position-relative">
-            <img class="img-fluid" src="../assets/images/InformationBg.png">
-
-            <div class="row container-fluid z-0 position-absolute top-0 start-0 pt-5">
-                <div class="container col w-50 ps-5 text-light text-end pe-5 row">
-                    <div class="col"></div>
-                    <div class="col-9">
-                        <div class="row">
-                            <h3 class="fw-light">The type of information you can get</h3>
+                <div class="z-0 position-absolute top-0 start-0  text-light text-end pt-5 mt-4 ps-5">
+                    <div class="row">
+                        <h3 class="fw-light fs-2">The type of information you can get</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-6">
+                            <p class="fw-light fs-5 mt-5">We can find everything that is written in the newspapers
+                                or on
+                                the
+                                Internet</p>
+                            <p class="fw-light fs-5 ">We can gather for you, whatever is mentioned about you, your
+                                competitors
+                                or your field of interest</p>
                         </div>
-                        <div class="row">
-                            <div class="col"></div>
-                            <div class="col-9">
-                                <p class="fw-light fs-5 mt-5">We can find everything that is written in the newspapers
-                                    or on
-                                    the
-                                    Internet</p>
-                                <p class="fw-light fs-5 ">We can gather for you, whatever is mentioned about you, your
-                                    competitors
-                                    or your field of interest</p>
-                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-5 ps-3 ms-4 mt-4">
+                <h3 class="colorPurple fw-light fs-2">We can help you have the following <br>
+                    types of information
+                </h3>
+                <ul class="mt-5 fw-light">
+                    <li>Information about your clients' needs;</li>
+                    <li class="my-1">Information about market position of your company;</li>
+                    <li class="my-1">Actual market and economic information;</li>
+                    <li class="my-1">Information about needs of your client;</li>
+                    <li class="my-1">Client's opinion;</li>
+                    <li class="my-1">Changes in legislation;</li>
+                    <li class="my-1">Experience and predictions of market growth, trends;</li>
+                    <li class="my-1">Experience of foreign companies;</li>
+                    <li class="my-1">Information about new technologies and products;</li>
+                    <li>Press releases, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- For screens with wv < 1400px -->
+    <div class="container-fluid d-xxl-none">
+        <div class="container-fluid row d-flex justify-content-center">
+            <div class="position-relative d-flex justify-content-center">
+                <img class="img-fluid" src="../assets/images/InformationBg.png" style="width: 100%;">
+
+                <div
+                    class="z-0 position-absolute top-0 end-0 text-light text-end pt-5 mt-4 px-5 col col-lg-6 w-100 w-lg-auto">
+                    <div class="row">
+                        <h3 class="fw-light fs-2">The type of information you can get</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="fw-light fs-5 mt-5">We can find everything that is written in the newspapers
+                                or on
+                                the
+                                Internet</p>
+                            <p class="fw-light fs-5 ">We can gather for you, whatever is mentioned about you, your
+                                competitors
+                                or your field of interest</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 ps-5">
-            <h3 class="colorPurple fw-light fs-2">We can help you have the following <br>
-                types of information
-            </h3>
-            <ul class="mt-5 fw-light">
-                <li>Information about your clients' needs;</li>
-                <li class="my-1">Information about market position of your company;</li>
-                <li class="my-1">Actual market and economic information;</li>
-                <li class="my-1">Information about needs of your client;</li>
-                <li class="my-1">Client's opinion;</li>
-                <li class="my-1">Changes in legislation;</li>
-                <li class="my-1">Experience and predictions of market growth, trends;</li>
-                <li class="my-1">Experience of foreign companies;</li>
-                <li class="my-1">Information about new technologies and products;</li>
-                <li>Press releases, etc.</li>
-            </ul>
+        <div class="container-fluid d-flex justify-content-around row ">
+            <div class="container-fluid my-5 row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h3 class="colorPurple fw-light fs-2">We can help you have the following <br>
+                        types of information
+                    </h3>
+                    <ul class="mt-5 fw-light">
+                        <li>Information about your clients' needs;</li>
+                        <li class="my-1">Information about market position of your company;</li>
+                        <li class="my-1">Actual market and economic information;</li>
+                        <li class="my-1">Information about needs of your client;</li>
+                        <li class="my-1">Client's opinion;</li>
+                        <li class="my-1">Changes in legislation;</li>
+                        <li class="my-1">Experience and predictions of market growth, trends;</li>
+                        <li class="my-1">Experience of foreign companies;</li>
+                        <li class="my-1">Information about new technologies and products;</li>
+                        <li>Press releases, etc.</li>
+                    </ul>
+                </div>
+                <div class="col-3"></div>
+
+            </div>
         </div>
     </div>
+
+
+
+
     <!--  -->
 
     <!-- FAQ  section -->
