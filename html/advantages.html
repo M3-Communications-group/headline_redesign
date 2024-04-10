@@ -153,7 +153,8 @@
 
     <!-- INFORMATION  SECTION -->
 
-    <div class="container-fluid mt-5 pb-2">
+    <!-- For screens with vw >= 1400px -->
+    <div class="container-fluid mt-5 pb-2 d-xxl-block d-none">
         <div class="container d-flex justify-content-center">
             <h2 class="fs-2 fw-light colorPurple">HeadLine, because we...</h2>
         </div>
@@ -171,10 +172,7 @@
                 <p class="fs-5 fw-medium lh-lg">Are always here for you</p>
             </div>
         </div>
-    </div>
 
-    <!-- For screens with vw >= 1400px -->
-    <div class="d-xxl-block d-sm-none d-xs-none">
         <div id="infoDiv " class="d-flex flex-row">
             <div class="position-relative">
                 <img class="img-fluid" src="../assets/images/InformationBg.png">
@@ -218,28 +216,46 @@
         </div>
     </div>
 
-
     <!-- For screens with wv < 1400px -->
-    <div class="container-fluid d-xxl-none">
-        <div class="container-fluid row d-flex justify-content-center">
-            <div class="position-relative d-flex justify-content-center">
-                <img class="img-fluid" src="../assets/images/InformationBg.png" style="width: 100%;">
+    <div class="container-fluid mt-5 pb-2 d-block d-xxl-none">
+        <div class="container d-flex justify-content-center">
+            <h2 class="fs-2 fw-light colorPurple">HeadLine, because we...</h2>
+        </div>
+        <div class="row my-5 fst-italic">
+            <div class="col-12 ps-5 d-flex justify-content-center">
+                <div class="">
+                    <p class="fs-5 fw-light lh-lg">Are professionals with more than 10 years of experience</p>
+                    <p class="fs-5 fw-light lh-lg">Have an excelent knowledge of all printand online media</p>
+                    <p class="fs-5 fw-light lh-lg"> Have a superb command of the English language</p>
+                    <p class="fs-5 fw-light lh-lg"> Offer you a flexible service</p>
+                </div>
 
-                <div
-                    class="z-0 position-absolute top-0 end-0 text-light text-end pt-5 mt-4 px-5 col col-lg-6 w-100 w-lg-auto">
-                    <div class="row">
-                        <h3 class="fw-light fs-2">The type of information you can get</h3>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="fw-light fs-5 mt-5">We can find everything that is written in the newspapers
-                                or on
-                                the
-                                Internet</p>
-                            <p class="fw-light fs-5 ">We can gather for you, whatever is mentioned about you, your
-                                competitors
-                                or your field of interest</p>
-                        </div>
+            </div>
+            <div class="col-12 d-flex flex-column align-items-center justify-content-center ps-5">
+                <div class="w-75 my-3" style="border-top: 2px solid #923c75;"></div>
+
+                <div class="">
+                    <p class="fs-5 fw-light lh-lg">Have clear and reasonable pricing</p>
+                    <p class="fs-5 fw-light lh-lg">Realize how precious your time and money is</p>
+                    <p class="fs-5 fw-light lh-lg">Give you everything you need and nothing irrelevant</p>
+                    <p class="fs-5 fw-medium lh-lg">Are always here for you</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid w-100">
+            <div class="text-light p-5" style="background-color: #0077b6; border-radius: 50px;">
+                <h3 class="fw-light fs-2">The type of information you can get</h3>
+                <div class="">
+                    <div class="col">
+                        <p class="fw-light fs-5 mt-5">We can find everything that is written in the newspapers
+                            or on
+                            the
+                            Internet</p>
+                        <p class="fw-light fs-5 ">We can gather for you, whatever is mentioned about you, your
+                            competitors
+                            or your field of interest</p>
                     </div>
                 </div>
             </div>
@@ -306,15 +322,14 @@
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
-                            body. Let's imagine this being filled with some actual content.</div>
+                        <div class="accordion-body">Example</div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
                             Do you monitor media on weekends?
                         </button>
                     </h2>
@@ -323,11 +338,11 @@
                         <div class="accordion-body">Example</div>
                     </div>
                 </div>
-                <!-- Otros elementos del acordeón con identificadores únicos -->
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
                             Is the list of the monitored media fixed?
                         </button>
                     </h2>
@@ -339,7 +354,8 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
                             Is there an additional charge for monitoring an event if I am already your client?
                         </button>
                     </h2>
@@ -348,7 +364,6 @@
                         <div class="accordion-body">Example</div>
                     </div>
                 </div>
-                <!-- Agregar otros elementos con identificadores únicos similares -->
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -364,7 +379,8 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                            data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                            aria-controls="flush-collapseSeven">
                             How long does it take to start the service?
                         </button>
                     </h2>
@@ -376,7 +392,8 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                            data-bs-target="#flush-collapseEight" aria-expanded="false"
+                            aria-controls="flush-collapseEight">
                             Can you monitor just a list of specific issues or sites for us?
                         </button>
                     </h2>
@@ -388,8 +405,10 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-                            Is it possible to order the monitoring of additional media when a company prepares for an event?
+                            data-bs-target="#flush-collapseNine" aria-expanded="false"
+                            aria-controls="flush-collapseNine">
+                            Is it possible to order the monitoring of additional media when a company prepares for an
+                            event?
                         </button>
                     </h2>
                     <div id="flush-collapseNine" class="accordion-collapse collapse"
@@ -412,7 +431,8 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                            data-bs-target="#flush-collapseEleven" aria-expanded="false"
+                            aria-controls="flush-collapseEleven">
                             Do you deliver hard copies?
                         </button>
                     </h2>
@@ -424,7 +444,8 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                            data-bs-target="#flush-collapseTwelve" aria-expanded="false"
+                            aria-controls="flush-collapseTwelve">
                             How can I add another email address to the distribution list for e-mail alerts?
                         </button>
                     </h2>
@@ -436,8 +457,10 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
-                            It is possible the media clipping information to be given in a format that answers the standards and corporate style of my company?
+                            data-bs-target="#flush-collapseThirteen" aria-expanded="false"
+                            aria-controls="flush-collapseThirteen">
+                            It is possible the media clipping information to be given in a format that answers the
+                            standards and corporate style of my company?
                         </button>
                     </h2>
                     <div id="flush-collapseThirteen" class="accordion-collapse collapse"
@@ -448,7 +471,8 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+                            data-bs-target="#flush-collapseFourteen" aria-expanded="false"
+                            aria-controls="flush-collapseFourteen">
                             Is it possible to add and translate articles upon request?
                         </button>
                     </h2>
@@ -458,7 +482,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <!--  -->
